@@ -36,6 +36,8 @@ public class LocationHelper {
         this.requestQueue = Volley.newRequestQueue(context);
     }
 
+    // We do check permissions :)
+    @SuppressLint("MissingPermission")
     public void getLocation(Consumer<City> consumer) {
         if(hasPermission()) {
             LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
