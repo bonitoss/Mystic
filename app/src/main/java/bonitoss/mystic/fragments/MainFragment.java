@@ -1,5 +1,6 @@
 package bonitoss.mystic.fragments;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -46,6 +47,7 @@ public class MainFragment extends Fragment {
         });
     }
 
+    @SuppressLint("StringFormatMatches")
     private void updateUI(@NonNull Forecast forecast) {
         if(getView() == null) return;
 

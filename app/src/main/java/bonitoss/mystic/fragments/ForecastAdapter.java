@@ -1,5 +1,6 @@
 package bonitoss.mystic.fragments;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,6 +32,7 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ViewHo
             this.view = view;
         }
 
+        @SuppressLint("StringFormatMatches")
         public void update(Forecast forecast) {
             TextView forecastTitle = view.findViewById(R.id.forecast_title);
             TextView forecastSubtitle = view.findViewById(R.id.forecast_subtitle);
