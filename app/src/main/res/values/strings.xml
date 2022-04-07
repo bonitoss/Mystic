@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mystic</string>
+    <string name="weather_tab">Weather</string>
+    <string name="forecast_tab">Forecast</string>
+    <!--    <string name="api_key">srRLeAmTroxPinDG8Aus3Ikl6tLGJd94</string>-->
+    <string name="api_key">444c95287ced43a4860174007222903</string>
+    <string name="city_api_key">LpwDM71bbk34mS7dUcrSTP2kuXBDPKk3</string>
+    <string name="location_selector_dialog_title">Choose a weather location</string>
+    <string name="ok">OK</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="city_hint">Select your city</string>
+    <string name="country_hint">Select your country</string>
+    <string name="location_selector_dialog_add_new">New city</string>
+    <string name="location_selector_dialog_empty">No cities available, select \"New city\" to add a new city.</string>
+    <string name="select_city">Select city</string>
+    <string name="detecting_location">Detecting your location…</string>
+    <string name="adding_city">Adding city %s…</string>
+    <string name="feels_like">feels like %s°%s</string>
+    <string name="forecast_for">Forecast for %s</string>
+    <string name="weather_in">Weather in %s</string>
+    <string name="view_alerts">View alerts</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_location_permission_cant_grant">Please grant location permission, then try again.</string>
+    <string name="location_permission_required">Please grant location permission, we will try again.</string>
+</resources>
