@@ -13,9 +13,6 @@ android_app {
         "androidx.appcompat_appcompat",
         "androidx-constraintlayout_constraintlayout",
         "com.google.android.material_material",
-	"com.android.volley_volley",
-	"androidx.swiperefreshlayout_swiperefreshlayout",
-	"androidx.room_room-runtime",
     ],
 }
 
