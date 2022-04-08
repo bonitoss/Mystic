@@ -16,10 +16,10 @@
     <string name="location_selector_dialog_empty">No cities available, select \"New city\" to add a new city.</string>
     <string name="select_city">Select city</string>
     <string name="detecting_location">Detecting your location…</string>
-    <string name="adding_city">Adding city %s…</string>
-    <string name="feels_like">feels like %s°%s</string>
-    <string name="forecast_for">Forecast for %s</string>
-    <string name="weather_in">Weather in %s</string>
+    <string name="adding_city">Adding city %1$s…</string>
+    <string name="feels_like">feels like %1$s°%2$s</string>
+    <string name="forecast_for">Forecast for %1$s</string>
+    <string name="weather_in">Weather in %1$s</string>
     <string name="view_alerts">View alerts</string>
     <string name="cancel">Cancel</string>
     <string name="no_location_permission_cant_grant">Please grant location permission, then try again.</string>
